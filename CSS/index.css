@@ -1,0 +1,131 @@
+.header{
+    background: #446DFF;
+    color: white;
+    font-size: 25px;
+    font: normal normal normal 25px/30px Montserrat;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 3px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin-left: 200px;
+    font-size: 21px;
+}
+
+h3{
+    margin-left: 350px;
+}
+
+.container{
+    display: flex;
+    padding: 5px;;
+}
+
+.button-length{
+    top: 224px;
+    left: 385px;
+    width: 150px;
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    align-items: center;
+    border: none;
+    margin-left: 25%;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    
+}
+
+.button-temperature{
+    top: 224px;
+    left: 385px;
+    width: 150px;
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    margin-right: 30px;
+    border: none;;
+}
+
+.button-volume{
+    top: 224px;
+    left: 385px;
+    width: 150px;
+    height: 120px;
+    background: #FFFFFF ;
+    border: none;
+    border-radius: 7px;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.button-length:hover {
+    background-color: #EDFDF9;
+    border: #0EC098 solid 1px;
+
+}
+
+.button-temperature:hover{
+    background-color:#FFEEF0;
+    border: #FD5160 solid 1px;
+
+}
+
+.button-volume:hover{
+    background-color: #E8DDFF;
+    border: #7224FF solid 1px;
+}
+
+#text{
+    width: 200px;
+    height: 50px;
+}
+
+#text:hover{
+    border: #446DFF solid 1px;
+}
+
+select:hover{
+   color: black;
+   color: #0EC098;
+   border:  #446DFF solid 1px;
+   cursor: pointer;
+}
+
+select{
+    width: 210px;
+    height: 50px;
+    background: #ffffff;
+}
+
+.from{
+    align-items: center;
+    margin-right: 20px;
+    float: left;
+    margin-left: 350px;
+}
+
+@media (max-width:768px) {
+    h2{
+        color: red;
+    }
+
+    .container{
+        display: block;
+    }
+}
+
+
+

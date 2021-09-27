@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>Quantity Management</title>
+    <link rel="icon" href="/Assets/icon.png">
+</head>
+
+<body>
+    <h2>Quantment</h2>
+    <header class="header">
+        <p>Welcome To Quantity Management</p>
+    </header>
+    <h3>CHOOSE TYPE</h3>
+    <div>
+    <div class="container">
+        <button class="button-length" type="button" ><img src="/Assets/scale.svg" ><br>Length</button>
+        <button class="button-temperature" type="button"><a href="/pages/temperature.html"><img src="/Assets/hot (3).svg"><br>Temperature</a></button>
+        <button class="button-volume" type="button"><a href="/pages/volume.html"><img src="/Assets/beaker (1).svg"><br>Volume</a></button>
+    </div>
+
+    <div class="from">
+        <p><h6>FROM</h6></p>
+        <input type="text" placeholder="1" id="text" name="text"><br>
+        <select name="length" id="length">
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Millimeter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="meter">Meter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="mile">Mile</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+        </select>
+    </div>
+    
+    <div class="to">
+        <p><h6>TO</h6></p>
+        <input type="text" placeholder="100" id="result" name="result"><br>
+        <select name="resultType" id="resultType">
+            <option value="centimeter">Centimeter</option>
+            <option value="millimeter">Millimeter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="meter">Meter</option>
+            <option value="micrometer">Micrometer</option>
+            <option value="mile">Mile</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option>
+        </select>
+    </div>
+
+</body>
+
+<script src="/JS/lengthConvertor.js"></script>
+</html>
